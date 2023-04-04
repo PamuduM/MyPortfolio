@@ -158,7 +158,7 @@ main{
 }
 /*----------about--------*/
 #about > h1{
-    text-align: center;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
     font-size: 40px;
