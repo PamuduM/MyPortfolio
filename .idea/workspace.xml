@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6619d42e-43e0-4cf2-b5a9-18f95100b814" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS/assets/ijse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS/assets/spiderman-logo-illustration-958x575.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CaseTwo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CaseTwo/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
       <workItem from="1680146511883" duration="604000" />
       <workItem from="1681964509806" duration="5592000" />
       <workItem from="1681971081677" duration="5000" />
+      <workItem from="1682353257960" duration="149000" />
     </task>
     <servers />
   </component>
