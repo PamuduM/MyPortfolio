@@ -43,7 +43,7 @@ header > nav > ul > li > a:hover{
 header > nav > ul > li > a::after{
     content: '';
     display: block;
-    width: 0;
+    width: 0;u888888888888888888888888
     height: 5px;
     background-color: grey;
     transition: width 0.2s;
