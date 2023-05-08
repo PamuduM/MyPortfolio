@@ -43,7 +43,7 @@ header > nav > ul > li > a:hover{
 header > nav > ul > li > a::after{
     content: '';
     display: block;
-    width: 0;u888888888888888888888888
+    width: 0;
     height: 5px;
     background-color: grey;
     transition: width 0.2s;
@@ -487,7 +487,7 @@ main{
 }
 
 #bg1{
-    background-color: grey;
+    background-color: blue;
     position: absolute;
     width: 100%;
     top:4700px;
@@ -544,7 +544,7 @@ main{
 #details >section > div > div{
     height: 50px;
     width: 50px;
-    background-color: grey;
+    background-color: blue;
     border-radius: 100%;
 }
 
@@ -616,7 +616,7 @@ main{
 }
 
 #submitbtn{
-    background-color: grey;
+    background-color: blue;
     border: none;
     color: white;
     padding: 12px 82px;
