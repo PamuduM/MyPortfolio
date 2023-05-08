@@ -1,4 +1,10 @@
-header{
+body {
+    position: relative;
+    background-color: #3e4146;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}header{
     background: white;
     box-shadow: 0px -1px 8px 2px #1c1717e8;
     position: fixed;
@@ -82,6 +88,7 @@ main{
 
 #home > aside >h1{
     font-size: 60px;
+    color: white;
 }
 
 #home > aside >h2{
@@ -97,7 +104,7 @@ main{
 #home > aside > button{
     background-color: grey;
     border: none;
-    color: white;
+    color: grey;
     padding: 12px 82px;
     text-align: center;
     text-decoration: none;
@@ -224,11 +231,13 @@ main{
     margin-bottom: 0;
     font-size: 50px;
     margin-top:800px;
+    color: white;
 }
 
 #about > div{
     margin-top: 0px;
     margin-left: 700px;
+    color: white;
 }
 
 #about >img{
