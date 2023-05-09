@@ -1126,6 +1126,52 @@ section#education>div>h2{
     background-color: #44444C;
 }
 
+/*----------Projects Styles--------*/
+#projects > h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    font-size: 45px;
+    margin-top: 110px;
+}
+
+#projects > div{
+    margin-left: 720px;
+    width :3px;
+    height: 600px;
+    position: relative;
+}
+
+.projects section img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    width: 350px;
+    height: 350px;
+
+}
+
+.projects  section section h5 {
+    display: inline-block;
+    width: 400px;
+    font-size: 15px;
+}
+#projects > section{
+    /*height: 600px;*/
+    /*width: 1290px;*/
+    /*position: relative;*/
+    /*box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;*/
+    /*border-radius: 4%;*/
+    margin-top: 90px;
+    margin-left: 200px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*column-gap: 30px;*/
+}
+.projects section img:hover{
+    transform: scale(1.05);
+}
+
 /* contact
 ============================================ */
 #contact{
