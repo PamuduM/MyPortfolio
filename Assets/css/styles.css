@@ -232,14 +232,13 @@ main>section#home{
 ============================================ */
 #aboutPhoto{
     position: absolute;
-    height: 55vh;
+    height: 40vh;
     width: auto;
     margin: auto;
     left: 10vw;
     top: 0;
     bottom: 0;
      border: 3px solid #44444C;
-    border-radius: 50%; 
     box-shadow: 1px 2px 4px 0px #1E1E1E;
 }
 .backgr2{
