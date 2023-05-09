@@ -666,7 +666,7 @@ form#form {
   }
   button {
     background-color: white;
-    color: white;
+    color: grey;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
