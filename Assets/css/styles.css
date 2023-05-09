@@ -665,7 +665,7 @@ form#form {
     box-shadow: 0 0 5px rgb(201, 211, 214);
   }
   button {
-    background-color: #44444C;
+    background-color: white;
     color: white;
     padding: 12px 20px;
     border: none;
