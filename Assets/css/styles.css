@@ -318,7 +318,7 @@ main>section#home{
  .content ul li a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1E1E1E;
+    background-color: white;
     color: black;
     text-decoration: none;
     border-radius: 20px;
@@ -329,14 +329,14 @@ main>section#home{
  .content ul li a:hover {
     transform: scale(1.1);
     background-color: black;
-    color: #000;
-    border: 1px solid #1E1E1E;
+    color: grey;
+    border: 1px solid white;
 
 
   }
 
 
-/* aducation
+/* education
 ============================================ */
 #education{
     background-color:black;
@@ -402,11 +402,9 @@ section#education>div>h2{
     
   }
 
-  /* setificate */
-
-
+ 
   
-  /* lanaugs
+  /* languages
 ============================================ */
 .aduTopic h2{
     font-size: 40px;
@@ -415,7 +413,7 @@ section#education>div>h2{
 .Languages{
     height: 100vh;
     color: white;
-    background-color: #1E1E1E;
+    background-color: black;
     position: relative;
 }
 
@@ -424,7 +422,7 @@ section#education>div>h2{
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    box-shadow: 1px 2px 4px 0px #14192B;
+    box-shadow: 1px 2px 4px 0px black;
     
 }  
 .Languages ul {
@@ -432,7 +430,7 @@ section#education>div>h2{
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #44444C;
+    background-color: grey;
     width: 75vw;
     height: 55vh;
     position: absolute; 
@@ -452,7 +450,7 @@ section#education>div>h2{
 .tools{
     height: 90vh;
     color: white;
-    background-color: #1E1E1E;
+    background-color: black;
     position: relative;
 }
 .tools div ul li img{
@@ -460,7 +458,7 @@ section#education>div>h2{
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    box-shadow: 1px 2px 4px 0px #14192B;  
+    box-shadow: 1px 2px 4px 0px black;  
 }
 .ul1{
     height: 28vh;
@@ -484,7 +482,7 @@ section#education>div>h2{
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #44444C;
+    background-color: grey;
     width: 75vw;
     height: 56vh;
     position: absolute;
@@ -503,9 +501,10 @@ section#education>div>h2{
     margin-top: 8px;
     text-align: center;  
 }
-/* project
+/* projects
 ============================================ */
 .proTopic{
+    color: white;
     width: max-content;
     height: 20vh;
     margin: auto;
@@ -697,7 +696,7 @@ form#form {
   }
 
 
-/* foter
+/* footer
 ============================================ */
 footer{
     display: flex;
