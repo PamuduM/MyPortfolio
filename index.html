@@ -1,324 +1,575 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <title>My Portfolio</title>
-    <meta charset="UTF-8">
-<!--    <base href="localhost">-->
-    <meta name="keywords" content="IJSE, GDSE, Sri Lanka, CMJD, RWAD">
-    <meta name="description" content="This is for testing my web">
-    <meta name="author" content="Pamudu Mihiranga">
-    <meta name="owner" content="Pamudu Mihiranga">
-    <meta name="theme-color" content="blue">
+    <meta name="keywords" content="IJSE GDSE, Sri Lanka CMJD,RWAD" />
+    <meta name="description" content="THIS IS for testing my web" />
+    <meta name="author" content="IJSE" />
+    <meta name="owner" content="pamudu mihiranga" />
+    <meta name="robot" content="index" />
+    <meta name="theme-color" content="black" />
+    <meta name="viewport" content="width=device-wide initial scale=1" />
 
-    <link rel="icon" href="Assets/img/icon.jpg">
-    <link rel="canonical" href="Assets/img/icon.jpg">
+    <!--local style-->
+    <link rel="icon" href="Assets/img/icon.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <link rel="stylesheet" href="Assets/css/styles.css">
-    <link rel="stylesheet" href="Assets/css/normalize.css">
-    <link rel="stylesheet" href="Assets/css/styles.css">
-</head>
+    <!--globel style-->
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/hero.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/skill.css" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="styles/service.css" />
+    <link rel="stylesheet" href="styles/assignment.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <!--body stared-->
 
-<body>
-<br>
+  <body>
+    <!-----------------------------------------------------Navbar---------------------------------------------------------------------------->
+
     <header>
-        <div>
-            <p><b>Pamudu</b> Mihiranga</p>
-            
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="#home" >Home</a></li>
-                <li><a href="#about" >About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-           </ul>
-        </nav>
+      <nav class="nav-bar">
+        <h2 class="logo">Pamudu<span></b>Mihiranga</span></h2>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#SkillsAndTools">Skils</a></li>
+          <li><a href="#Assignment">Assignment</a></li>
+          <li><a href="#Projects"> Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
 
+    <!-----------------------------------------------------Hero---------------------------------------------------------------------------->
+    <div class="background-cover"></div>
 
-        <section class="home" id="home">
-            <aside>
-                <h1 class="anim">Welcome</h1>
-                <h2 class="anim">I'm Pamudu <font color ="blue">Mihiranga</font></h2>
-                <h3 class="anim">Full Stack Developer</h3>
-                <br>
-                <a href="#contact" class="sideBtn">Hire me</a>
+    <section id="Home">
+      <div class="hero">
+        <div class="hero-content">
+          <div>
+            <h1>Hello There,</h1>
+            <br>
+            <br>
+            <h1>I'm Pamudu Mihiranga</h1>
+            <h1>Full stack Software Developer</h1>
+            <br>
+            <a href="#contact" class="sideBtn">Hire me</a>
+          </div>
 
-            </aside>
-            <section>
-                <img src="Assets/img/Home.jpg" align="left" alt="image-01" width="650px" height="700px">
-                <div style="width:50px;height:20px;background-color: blue;"></div>
-           
-            </section>
-        </section>
-
-   <!--    about section-->
-   <section id="about" class="backgr2">
-    <img src="Assets/img/ijsedt.logo.jpg" alt="image-02" width="500px" height="500px">
-    <div id="topic">
-        <h2 >About me</h2>
-    </div>
-
-  <section class="content">
-   
-    <article class="articalAbout" id="articl1"> 
-        <h2>i'm Pamudu Mihiranga  and i'm a <span>Full Stack Developer</span></h2>   
-        I'm  21-year-old and from Matara, Srilanka. <br>
-        <p>I'm Second year student in IJSE(Institue of Software Engineering).I'm currently learning more about software Engineeing,web development and internet technologies.I like to improve my skills with working on projects.Also i have knowledge about web application design,UI/Ux design and javaFX.</p>
-        <p>In this portfolio, you will find examples of my work in software development using languages such as Java, HTML, CSS, MySQL, and Git.<br>
-                            <br>As a software engineering student, I am passionate about creating innovative and efficient software solutions that are both functional and visually appealing.<br>
-                            I believe in creating software that is easy to use and accessible to everyone.
-                            <br>Thank you for taking the time to visit my portfolio, and I look forward to hearing from you soon!</p>
-    </article>
-    <ul>
-        <li><a href="" download="cv.pdf">Download CV</a></li>
-    </ul>
-</section>
-</section>
-
-<!-- education section-->
-<section id="education"> 
- <div class="aduTopic">
-    <h2>My Education</h2>
-</div>   
-<section class="school">
-    <img class="edImg" src="Assets/img/scl.jpg" alt="school image">
-    <article id="schArti" class="edArti">
-        <h4>school</h4>
-        Mr/Thelijjawila Central College <br>
-        G.C.E Ordinary Level exam and <br>
-        G.C.E Advance Level exam
-    </article>
-</section>
-<section class="ijse">
-    <article id="ijseArti" class="edArti">
-        <h4>high education</h4>
-        Institute of Software Engineering(IJSE) <br>
-        Graduate Diploma in Software Engineering ( GDSE )
-    </article>
-    <img class="edImg" src="Assets/img/ijse-logo.jpg" alt="ijse logo">
-</section>
-
-</section>
-
-<!--    skills section-->
-<section id="skills">
-<section class="Languages" >
-    <div class="aduTopic">
-    <h2>Languages</h2>
-    </div>
-        <ul>
-            <li id="id">
-                <figure>
-                    <img src="Assets/img/icon/java-48.png" alt="java logo">
-                    <figcaption>java</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/icon/sql.png" alt="java logo">
-                    <figcaption>sql</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/icon/iconshtml5.png" alt="java logo">
-                    <figcaption>html</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/icon/icons8-css3-100.png" alt="css logo">
-                    <figcaption>css</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/icon/icons8-javascript-48.png" alt="js logo">
-                    <figcaption>java<br>script</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/icon/phython.png" alt="phyton logo">
-                    <figcaption>phyton</figcaption>
-                </figure>
-            </li>
-
-        </ul>
-    
-</section>
-</section>
-
-
-<section class="tools">
-<div id="toolsTopic" class="aduTopic">
-<h2>Tools</h2>
-</div>
-    <div class="toolbac">
-        <ul class="ul1">
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/icons8-intellij-idea-100.png" alt="intelliJ logo">
-                    <figcaption>intelliJ</figcaption>
-                </figure>
-            </li>
-            <li id="bider">
-                <figure>
-                    <img src="Assets/img/tools/download.png" alt="sceneBuilder logo">
-                    <figcaption>scene<br>builder</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/icons8-figma-100 (2).png" alt="figma logo">
-                    <figcaption>figma</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/icons8-github-100.png"github logo">
-                    <figcaption>github</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/jasper.jpg" alt="jasper logo">
-                    <figcaption>jasper</figcaption>
-                </figure>
-            </li> 
-        </ul> 
-        <ul class="ul1">                    
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/icons8-adobe-photoshop-100.png" alt="photoshop logo">
-                    <figcaption>photoshop</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/netbeens.png" alt="netbeans logo">
-                    <figcaption>netbeans</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/vscode.png" alt="vscode logo">
-                    <figcaption>vscode</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="Assets/img/tools/icons8-canva-100.png" alt="canva logo">
-                    <figcaption>canva</figcaption>
-                </figure>
-            </li>
-            <li>                      
-                <figure>
-                     <img src="Assets/img/tools/idxBGQ6sUl.png" alt="gdevolop logo">
-                    <figcaption>gdevolop</figcaption>
-                    </figure>
-               
-            </li>
           
-        </ul>
-    </div>
-</section>
-
-<!--       project section section-->
-<section id="projects" class="backgr2">
-    <div  class="proTopic">
-        <h2>Projects</h2>
-    </div>
-    
-    <section class="proflex">
-        <figure>
-            <div id="Bakery"></div>
-            <img src="Assets/img/" alt="">
-            <figcaption>Pos System for bakery shop using java </figcaption> 
-        </figure>
-        <figure>
-            <div id="BlueOcean Hotel"></div>
-            <img src="Assets/img/" alt="">
-            <figcaption>System of hotel room booking using JavaFX </figcaption> 
-        </figure>
-        <figure>
-            <div id="Hostel Management System"></div>
-            <img src="assets/images/game.png" alt="">
-            <figcaption>System of hostel system using Hibernate</figcaption> 
-        </figure>
+        </div>
+      </div>
     </section>
-    
-</section>
 
+    <!-- -------------------------------------------------AboutMe--------------------------------------------------------------- -->
+    <section id="About">
+      <div class="container about-content">
+        <div>
+          <h1 class="section-title">About me</h1>
+          <div class="content">
+            <p>
+              My name is Pamudu Mihiranga, and I am a full-stack developer. I am
+              currently pursuing a degree in Software Engineering at IJSE
+              (Institute of Java Software Engineering) and am completing my
+              second semester. As an enthusiastic and highly motivated student,
+              I am always eager to learn new technologies and improve my skills.
+              <br />
+              <p>In this portfolio, you will find examples of my work in software development using languages such as Java, HTML, CSS, MySQL, and Git.<br>
+                <br>As a software engineering student, I am passionate about creating innovative and efficient software solutions that are both functional and visually appealing.<br>
+                I believe in creating software that is easy to use and accessible to everyone.
+                <br>Thank you for taking the time to visit my portfolio, and I look forward to hearing from you soon!</p>
 
-
-<!--    contact section-->
-<section id="contact">
-
- <section id="contactlogo">
-<!--             <img src="assets/images/icon/icons8-whatsapp-100.png" alt="icon jpg">-->
-<!--            <img src="assets/images/icon/icons8-gmail-logo-100.png" alt="icon jpg">-->
-<!--            <img src="assets/images/icon/icons8-github-100%20(1).png" alt="icon jpg">-->
-<!--            <img src="assets/images/icon/icons8-linkedin-100.png" alt="icon jpg">-->
-<!--            <img src="assets/images/icon/icons8-location-100.png" alt="icon jpg">-->
-    <div>
-        <br>
-        <img src="Assets/img/icon/icons8-whatsapp-100.png" alt="icon jpg">
-         <p id="telno"> +94&nbsp;778629191</p>
+          </div>
+          <div class="social">
+            <a href="https://web.facebook.com/pamudu.mihiranga.9"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/pamudu_mihiranga/"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/pamudu-mihiranga-60b727265/"
+              ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+            ></a>
+            <a href="https://github.com/PamuduM"
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </div>
         </div>
-    <div> 
-        <br>
-        <img src="Assets/img/icon/icons8-gmail-logo-100.png" alt="icon jpg">
-        <p id="gamil"> pamudumihiranga2002@gmail.com</p>
-    </div>
-    <div>
-        <br>
-         <img src="Assets/img/icon/icons8-github-100 (1).png" alt="icon jpg"> 
-         <p id="git"> PamuduM</p>
+        <img class="image-section" src="./assest/images/me1.jpg" alt="" />
+      </div>
+    </section>
+
+     <!-------------------------------------------------service section start -------------------------------------------------------->
+     <section id="services">
+      <div class="container service-content">
+        <h2 class="section-title">Services</h2>
+
+        <div class="box">
+          <div class="card">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <h5>mobile application</h5>
+            <div class="pra">
+              <p>
+                Any kind of mobile application with latest technologies and high
+                quality UI and UX
+              </p>
+
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <h5>web application</h5>
+            <div class="pra">
+              <p>
+                Any kind of mobile application with latest technologies and high
+                quality UI and UX
+              </p>
+
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            <h5>ux/ui design</h5>
+            <div class="pra">
+              <p>
+                Any kind of mobile application with latest technologies and high
+                quality UI and UX
+              </p>
+
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="fa fa-gears" aria-hidden="true"></i>
+            <h5>Support</h5>
+            <div class="pra">
+              <p>
+                Any kind of mobile application with latest technologies and high
+                quality UI and UX
+              </p>
+
+              <p style="text-align: center">
+                <a class="button" href="#">Read More</a>
+              </p>
+            </div>
+          </div>
         </div>
-    <div>
-        <br>
-         <img src="Assets/img/icon/icons8-linkedin-100.png" alt="icon jpg"> 
-        <p id="linkin"> Pamudu&nbsp;Mihiranga</p>
+      </div>
+    </section>
+
+
+    <!-- --------------------------------------Skill & Tools starts---------------------------------------------------------------------------- --
+         start skill & tools section     -->
+
+    <section id="SkillsAndTools">
+      <div class="container skill-content">
+        <h1 class="section-title">My Skills</h1>
+
+        <div class="swiper">
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/java.png" alt="" />
+              <h3>Java</h3>
+            </div>
+          </div>
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/mysql.png" alt="" />
+              <h3>MySql</h3>
+            </div>
+          </div>
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/html.png" alt="" />
+              <h3>Html</h3>
+            </div>
+          </div>
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/css3.png" alt="" />
+              <h3>Css</h3>
+            </div>
+          </div>
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/javascript.png" alt="" />
+              <h3>javascript</h3>
+            </div>
+          </div>
+
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/python.png" alt="" />
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div>
+            <div class="icon-box">
+              <img src="assest/logo/tech/react.png" alt="" />
+              <h3>React</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!------------------------------------------------Assignment section start -------------------------------------------------------------->
+
+ <section id="Assignment">
+  <div class="container assignment-content">
+    <h2 class="section-title">Assignment</h2>
+
+    <div class="box">
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Css Assignment one</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/CSS/CaseOne/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Css Assignment Two</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/CSS/CaseTwo/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Css Assignment Three</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/CSS/CaseThree/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Css Assignment Four</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/CSS/CaseFour/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+      
     </div>
-    <div>
-        <br>
-        <img src="Assets/img/icon/icons8-location-100.png" alt="icon jpg">
-        <P id="address">  Vijaya House,<br>
-             Pitabeddara,<br>
-             Matara.
-        </P>
+    <div class="box">
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Css Assignment Five</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/CSS/CaseFive/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Css Assignment Six</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/CSS/CaseSix/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Transitions Assignment one</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/Transitions/CaseOne/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Transitions Assignment Two</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/Transitions/CaseTwo/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+      
     </div>
 
- </section>
- <section id="chatbox">
-    <form id="form">
-        <fieldset>
-            <p id="chattitele">Contact me</p>
-            <input  name="Name" id="name" type="text" placeholder="Name">
-            <input name="email" id="email" type="email" placeholder="Email"><br>
-            <input name="subject" id="subject" type="email" placeholder="Subject"><br>
-            <textarea name="message" id="message" rows="5" placeholder="Message"></textarea><br>
-            <button>Submit</button>
-        </fieldset>
-    </form>
+    <div class="box">
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Animation Assignment Three</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
 
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/Animations/CaseThree/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Animation Assignment Four</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/Animations/CaseFour/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Animation Assignment Five</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/Animations/CaseFive/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa fa-file-code-o" aria-hidden="true"></i>
+        <h5>Animation Assignment Six</h5>
+        <div class="pra">
+          <p>
+            Any kind of mobile application with latest technologies and high
+            quality UI and UX
+          </p>
+
+          <p style="text-align: center">
+            <a class="button" href="./Assignments/Animations/CaseSix/index.html">Read More</a>
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </section>
+    <!--------------------------------------------------project section start ------------------------------------------------------------------->
+    <section id="Projects">
+      <div class="container portfolio-content">
+        <h2 class="section-title">Projects</h2>
+        <div class="work-list">
+          <div class="work">
+            <img src="./assest/images/Stu.png" />
+            <div class="layer">
+              <h3>Student Management System</h3>
+              <p>
+                A Student Management System is also known as a Student
+                Information System (SIS). These systems work to coordinate
+                scheduling and communications between faculty regarding
+                students.
+              </p>
+              <a href=""
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./assest/images/hostel2.PNG" />
+            <div class="layer">
+              <h3>Hotel managemnt system</h3>
+              <p>
+                A hotel management system is a set of hotel software solutions
+                that keep operations flowing. There are accounting packages,
+                customer relationship management (CRM) packages, and a dizzying
+                array of industry-specific software
+              </p>
+              <a href="https://github.com/sewmisithara/Hostel_Management"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./assest/images/salone.png" alt="" />
+            <div class="layer">
+              <h3>Beautyshop Management System</h3>
+              <p>
+                Day by day modern beauty culture is getting rapidly popular
+                among the peoples, especially among young men and woman. Also
+                they are having a habit of preferring a usual one beautician.
+              </p>
+              <a href="https://github.com/sewmisithara/TheBeautyShop"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="seemore">
+          <a href="#" class="btn">SEE MORE</a>
+        </div> -->
+      </div>
+    </section>
 
-</section>
+   
+    <!------------------------------------------------contact  section start -------------------------------------------------------------->
+    <section id="Contact">
+      <div class="container contact-content">
+        <div class="content">
+          <h2 class="section-title">Contact Us</h2>
+          <p>
+            If you have any suggestion, project or even you want to say Hello..
+            please fill out the form below and I will reply you shortly.
+          </p>
+        </div>
+        <div class="conta">
+          <div class="containfo">
+            <div class="box1">
+              <div class="icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <div class="text1">
+                <h3>Matara</h3>
+                <p>Location</p>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="icon">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+              <div class="text1">
+                <h3>Pamudumihiranga2002@gmail.com</h3>
+                <p>Email</p>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="icon">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="text1">
+                <h3>0778629191</h3>
+                <p>phone</p>
+              </div>
+            </div>
+          </div>
+          <div class="contactForm">
+            <form>
+              <h2>Send Massage</h2>
+              <div class="inputBox">
+                <input type="text" name="" required="required" />
+                <span>Full Name</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" name="" required="required" />
+                <span>Email</span>
+              </div>
+              <div class="inputBox">
+                <textarea required="required"></textarea>
+                <span>Type Your Massage.....</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------------------------footer start---------------------------------------------------------------------->
+    <footer>
+        <h4 align="center">Thank you!</h4>
+        <p align="center"><small>Copyright &copy; Pamudu Mihiranga</small></p><div class="social">
+        <a href="https://web.facebook.com/pamudu.mihiranga.9"
+          ><i class="fa fa-facebook" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.instagram.com/pamudu_mihiranga/"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/pamudu-mihiranga-60b727265/"
+          ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+        ></a>
+        <a href="https://github.com/PamuduM"
+          ><i class="fa fa-github" aria-hidden="true"></i
+        ></a>
+      </div>
+    </footer>
 
-</main>
-<footer>
-    <h4 align="center">Thank you!</h4>
-    <p align="center"><small>Copyright &copy; Pamudu Mihiranga</small></p>
-    <br>
-    <br>
-</footer>
-</body>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assest/js/slick.js"></script>
+  </body>
 </html>
