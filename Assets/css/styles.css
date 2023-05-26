@@ -810,6 +810,7 @@ main > section#skills_section > section:first-child > h1 {
     padding-bottom: 17px;
     text-transform: uppercase;
 }
+/*d*/
 
 main > section#skills_section > section:first-child > h1::before {
     content: "";

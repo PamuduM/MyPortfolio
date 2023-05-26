@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6619d42e-43e0-4cf2-b5a9-18f95100b814" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1684856333130" duration="145000" />
       <workItem from="1684858059351" duration="1275000" />
       <workItem from="1685024365135" duration="999000" />
-      <workItem from="1685068390347" duration="1050000" />
+      <workItem from="1685068390347" duration="1122000" />
     </task>
     <servers />
   </component>
