@@ -5,6 +5,7 @@ var count = 0;
 let timerId = -1;
 
 const music = new Audio('assets/audio/Knight-Rider-Theme-Song.mp3');
+const music1 = new Audio('assets/KITTSound.mp3.mp3');
 
 function leftAnimation() {
     leftColors.unshift(leftColors.pop());

@@ -3,6 +3,7 @@ let customerList=[];
 let customerIndex;
 
 function clearCustomerFields() {
+
     $('#cid').val("");
     $('#Name').val("");
     $('#Address').val("");
@@ -75,8 +76,6 @@ btnUpdate.click(function (){
 
     clearCustomerFields();
 
-
-
     //updating the selected customer from the list
     customerList[customerIndex].id=cusID;
     customerList[customerIndex].name=cusName;
@@ -106,5 +105,8 @@ btnDelete.click(function (){
 });
 
 btnClear.click(function (){
+
     clearCustomerFields();
+
+    
 })
