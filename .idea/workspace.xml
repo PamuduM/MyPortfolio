@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6619d42e-43e0-4cf2-b5a9-18f95100b814" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/JS/InMemory-POS/controllers/customerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/JS/InMemory-POS/controllers/customerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/CSS/CaseOne/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/CaseOne/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/JS/InMemory-POS/assets/js&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pamudu Mihiranga/Downloads/JS/My-Portfolio-master/My-Portfolio-master&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -88,6 +88,10 @@
       <workItem from="1686132854159" duration="1529000" />
       <workItem from="1686229522970" duration="24000" />
       <workItem from="1686229765182" duration="4000" />
+      <workItem from="1686797949531" duration="1005000" />
+      <workItem from="1686806239853" duration="2315000" />
+      <workItem from="1686815968039" duration="2003000" />
+      <workItem from="1686823964767" duration="1560000" />
     </task>
     <servers />
   </component>
