@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6619d42e-43e0-4cf2-b5a9-18f95100b814" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/assets/js/`hi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/CSS/CaseOne/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/CSS/CaseOne/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assets/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,7 +37,7 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pamudu Mihiranga/Downloads/JS/My-Portfolio-master/My-Portfolio-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pamudu Mihiranga/Downloads/JS-OOP-master/JS-OOP-master&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -92,6 +93,9 @@
       <workItem from="1686806239853" duration="2315000" />
       <workItem from="1686815968039" duration="2003000" />
       <workItem from="1686823964767" duration="1560000" />
+      <workItem from="1687758374301" duration="35000" />
+      <workItem from="1687766484759" duration="318000" />
+      <workItem from="1687766913258" duration="2543000" />
     </task>
     <servers />
   </component>

@@ -115,91 +115,91 @@ for (let i = 1; i < 19; i++) {
             case "btnAssignment-1":
                 $("#btnAssignment-1>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/css/CaseOne/index.html"
+                    "href": "../../../assignments/CSS/CaseOne/index.html"
                 });
                 break;
 
             case "btnAssignment-2":
                 $("#btnAssignment-2>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/css/CaseTwo/index.html"
+                    "href": "../../../assignments/CSS/CaseTwo/index.html"
                 });
                 break;
 
             case "btnAssignment-3":
                 $("#btnAssignment-3>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/css/CaseThree/index.html"
+                    "href": "../../../assignments/CSS/CaseThree/index.html"
                 });
                 break;
 
             case "btnAssignment-4":
                 $("#btnAssignment-4>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/css/CaseFour/index.html"
+                    "href": "../../../assignments/CSS/CaseFour/index.html"
                 });
                 break;
 
             case "btnAssignment-5":
                 $("#btnAssignment-5>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/css/CaseFive/index.html"
+                    "href": "../../../assignments/CSS/CaseFive/index.html"
                 });
                 break;
 
             case "btnAssignment-6":
                 $("#btnAssignment-6>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/css/CaseSix/index.html"
+                    "href": "../../../assignments/CSS/CaseSix/index.html"
                 });
                 break;
 
             case "btnAssignment-7":
                 $("#btnAssignment-7>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/Transitions/CaseOne/index.html"
+                    "href": "../../../assignments/Transitions/CaseOne/index.html"
                 });
                 break;
 
             case "btnAssignment-8":
                 $("#btnAssignment-8>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/Transitions/CaseTwo/index.html"
+                    "href": "../../../assignments/Transitions/CaseTwo/index.html"
                 });
                 break;
 
             case "btnAssignment-9":
                 $("#btnAssignment-9>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/Animations/CaseThree/index.html"
+                    "href": "../../../assignments/Animations/CaseThree/index.html"
                 });
                 break;
 
             case "btnAssignment-10":
                 $("#btnAssignment-10>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/Animations/CaseFour/index.html"
+                    "href": "../../../assignments/Animations/CaseFour/index.html"
                 });
                 break;
 
             case "btnAssignment-11":
                 $("#btnAssignment-11>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/Animations/CaseFive/index.html"
+                    "href": "../../../assignments/Animations/CaseFive/index.html"
                 });
                 break;
 
             case "btnAssignment-12":
                 $("#btnAssignment-12>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/Animations/CaseSix/index.html"
+                    "href": "../../../assignments/Animations/CaseSix/index.html"
                 });
                 break;
 
             case "btnAssignment-13":
                 $("#btnAssignment-13>a").attr({
                     "target": "_blank",
-                    "href": "file:///D:/IJSE/GDSE64/MyWorkingZone/MyPortfolio/assignments/CSS-Frameworks/Pos/index.html"
+                    "href": "../../../assignments/JS/InMemory-POS/index.html"
                 });
                 break;
 
