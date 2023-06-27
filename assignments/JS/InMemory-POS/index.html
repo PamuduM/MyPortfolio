@@ -16,6 +16,7 @@
     }
   </style>
 
+
 </head>
 <body>
 <header>
@@ -28,16 +29,16 @@
       <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-white" aria-current="page" href="../../CSS-Frameworks/Pos/index.html" id="btnCustomer" >Customer</a>
+            <a class="nav-link text-white" aria-current="page" href="#customers" id="btnCustomer" >Customer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../../CSS-Frameworks/Pos/Items.html" id="btnItem">Items</a>
+            <a class="nav-link text-white" href="#item" id="btnItem">Items</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../../CSS-Frameworks/Pos/Orders.html" id="btnOrder">Orders</a>
+            <a class="nav-link text-white" href="#orders" id="btnOrder">Orders</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="../../CSS-Frameworks/Pos/PlaceOrder.html" id="btnPlaceOrder">Place Orders</a>
+            <a class="nav-link text-white" href="#placeOrder" id="btnPlaceOrder">Place Orders</a>
           </li>
 
         </ul>
@@ -57,7 +58,7 @@
       <h5 class="text-dark text-center m-lg-3 pt-5" >Add Customer</h5>
       <form>
         <div class="form-floating mb-3 mt-2">
-          <input type="text" class="form-control" id="cid" placeholder="Id">
+          <input type="text" class="form-control" id="cid" placeholder="Id" disabled>
           <label for="cid">Id</label>
         </div>
 
@@ -77,106 +78,27 @@
         </div>
       </form>
 
-      <div class="col-8 ms-5">
-        <button type="button" class="btn btn-success me-1 mt-2 mb-3">Save</button>
-        <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Update</button>
+      <div class="col-10 ms-2">
+        <button id="btnAdd" type="button" class="btn btn-success me-1 mt-2 mb-3">Save</button>
+        <button id="btnUpdate" type="button" class="btn btn-info me-1 mt-2 mb-3 ms-1">Update</button>
+        <button id="btnDelete" type="button" class="btn btn-danger me-1 mt-2 mb-3 ms-1">Delete</button>
+        <button id="btnClear" type="button" class="btn btn-danger me-1 mt-2 mb-3 ms-1">Clear</button>
       </div>
 
     </section>
 
     <section  class="col-12 col-sm-12 col-md-12 col-lg-7 border-dark m-1 border rounded object-fit-contain overflow-scroll" >
       <h5 class="text-dark text-center m-lg-3 pb-3" >Customer Details</h5>
-      <table class="table table-light table-striped">
+      <table class="table table-light table-striped" id="tblAllCustomers">
         <thead>
-          <tr>
-            <th style="background-color: blue" scope="col">Id</th>
-            <th style="background-color: blue" scope="col">Name</th>
-            <th style="background-color: blue" scope="col">Address</th>
-            <th style="background-color: blue" scope="col">Contact</th>
-            <th style="background-color: blue" scope="col">Action</th>
+        <tr>
+          <th style="background-color: blue" scope="col">Id</th>
+          <th style="background-color: blue" scope="col">Name</th>
+          <th style="background-color: blue" scope="col">Address</th>
+          <th style="background-color: blue" scope="col">Contact</th>
         </tr>
         </thead>
-        <tbody>
-        <tr>
-            <th scope="row">C001</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C002</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C003</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C004</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C005</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C006</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C007</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-                <button type="button" class="btn btn-warning">Edit</button>
-                <button type="button" class="btn btn-danger">Delete</button>
-            </td>
-        </tr>
-        <tr>
-            <th scope="row">C008</th>
-            <td>Pamudu</td>
-            <td>Galle</td>
-            <td>0770000000</td>
-            <td>
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
+        <tbody id="tblCustomers">
         </tbody>
       </table>
     </section>
@@ -192,7 +114,7 @@
       <h5 class="text-dark text-center m-lg-3 pt-5" >Add Items</h5>
       <form>
         <div class="form-floating mb-3 mt-2">
-          <input type="text" class="form-control" id="Iid" placeholder="Id">
+          <input type="text" class="form-control" id="Iid" placeholder="Id" disabled>
           <label for="Iid">Item id</label>
         </div>
 
@@ -212,9 +134,11 @@
         </div>
       </form>
 
-      <div class="col-8 ms-5">
-        <button type="button" class="btn btn-success me-1 mt-2 mb-3">Save</button>
-        <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Update</button>
+      <div class="col-10 ms-2">
+        <button id="btnItemAdd" type="button" class="btn btn-success me-1 mt-2 mb-3">Save</button>
+        <button id="btnItemUpdate" type="button" class="btn btn-info me-1 mt-2 mb-3 ms-1">Update</button>
+        <button id="btnItemDelete" type="button" class="btn btn-danger me-1 mt-2 mb-3 ms-1">Delete</button>
+        <button id="btnItemClear" type="button" class="btn btn-danger me-1 mt-2 mb-3 ms-1">Clear</button>
       </div>
 
     </section>
@@ -225,63 +149,13 @@
         <thead>
         <tr>
           <th style="background-color: blue" scope="col">Item Id</th>
-                        <th style="background-color: blue" scope="col">Description</th>
-                        <th style="background-color: blue" scope="col">Unit Price</th>
-                        <th style="background-color: blue" scope="col">Quantity</th>
-                        <th style="background-color: blue" scope="col">Action</th>
+          <th style="background-color: blue" scope="col">Description</th>
+          <th style="background-color: blue" scope="col">Unit Price</th>
+          <th style="background-color: blue" scope="col">Quantity</th>
         </tr>
         </thead>
-        <tbody>
-        <tr>
-          <th scope="row">I001</th>
-          <td>Milk</td>
-          <td>2000.00</td>
-          <td>10</td>
-          <td>
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">I002</th>
-          <td>Rice</td>
-          <td>220.00</td>
-          <td>50</td>
-          <td>
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">I003</th>
-          <td>Milk</td>
-          <td>2000.00</td>
-          <td>10</td>
-          <td>
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">I004</th>
-          <td>Milk</td>
-          <td>2000.00</td>
-          <td>10</td>
-          <td>
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">I005</th>
-          <td>Milk</td>
-          <td>2000.00</td>
-          <td>10</td>
-          <td>
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
+        <tbody id="tblItemBody">
+
         </tbody>
       </table>
     </section>
@@ -296,94 +170,13 @@
     <thead>
     <tr>
       <th style="background-color: blue" scope="col">Order ID</th>
-                        <th style="background-color: blue" scope="col">Date</th>
-                        <th style="background-color: blue" scope="col">Customer ID</th>
-                        <th style="background-color: blue" scope="col">Item ID</th>
-                        <th style="background-color: blue" scope="col">Quantity</th>
-                        <th style="background-color: blue" scope="col">Discount</th>
-                        <th style="background-color: blue" scope="col">Total</th>
-                        <th style="background-color: blue" scope="col">Action</th>
+      <th style="background-color: blue" scope="col">Date</th>
+      <th style="background-color: blue" scope="col">Customer Name</th>
+      <th style="background-color: blue" scope="col">Total</th>
     </tr>
     </thead>
-    <tbody>
-    <tr>
-      <th scope="col">O001</th>
-      <th scope="col">2023-05-17</th>
-      <th scope="col">C001</th>
-      <th scope="col">I001</th>
-      <th scope="col">2</th>
-      <th scope="col">100.00</th>
-      <th scope="col">1900.00</th>
-      <th scope="col">
-        <button type="button" class="btn btn-warning">Edit</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-      </th>
-    </tr>
-    <tr>
-      <th scope="col">O002</th>
-      <th scope="col">2023-05-17</th>
-      <th scope="col">C001</th>
-      <th scope="col">I001</th>
-      <th scope="col">2</th>
-      <th scope="col">100.00</th>
-      <th scope="col">1900.00</th>
-      <th scope="col">
-        <button type="button" class="btn btn-warning">Edit</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-      </th>
-    </tr>
-    <tr>
-      <th scope="col">O003</th>
-      <th scope="col">2023-05-17</th>
-      <th scope="col">C001</th>
-      <th scope="col">I001</th>
-      <th scope="col">2</th>
-      <th scope="col">100.00</th>
-      <th scope="col">1900.00</th>
-      <th scope="col">
-        <button type="button" class="btn btn-warning">Edit</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-      </th>
-    </tr>
-    <tr>
-      <th scope="col">O004</th>
-      <th scope="col">2023-05-17</th>
-      <th scope="col">C001</th>
-      <th scope="col">I001</th>
-      <th scope="col">2</th>
-      <th scope="col">100.00</th>
-      <th scope="col">1900.00</th>
-      <th scope="col">
-        <button type="button" class="btn btn-warning">Edit</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-      </th>
-    </tr>
-    <tr>
-      <th scope="col">O005</th>
-      <th scope="col">2023-05-17</th>
-      <th scope="col">C001</th>
-      <th scope="col">I001</th>
-      <th scope="col">2</th>
-      <th scope="col">100.00</th>
-      <th scope="col">1900.00</th>
-      <th scope="col">
-        <button type="button" class="btn btn-warning">Edit</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-      </th>
-    </tr>
-    <tr>
-      <th scope="col">O006</th>
-      <th scope="col">2023-05-17</th>
-      <th scope="col">C001</th>
-      <th scope="col">I001</th>
-      <th scope="col">2</th>
-      <th scope="col">100.00</th>
-      <th scope="col">1900.00</th>
-      <th scope="col">
-        <button type="button" class="btn btn-warning">Edit</button>
-        <button type="button" class="btn btn-danger">Delete</button>
-      </th>
-    </tr>
+    <tbody id="allOrderTable">
+
     </tbody>
   </table>
   </section>
@@ -402,30 +195,30 @@
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Order ID</span>
-            <input class="form-control" type="text" placeholder="O-001" aria-label="Disabled input example" disabled>
+            <input id="currentOrderID" class="form-control" type="text" aria-label="Disabled input example" disabled>
           </div>
         </div>
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Date</span>
-            <input class="form-control" type="text" placeholder="2023-05-17" aria-label="Disabled input example" disabled>
+            <input id="dtf" class="form-control" type="text"  aria-label="Disabled input example" disabled>
           </div>
         </div>
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">CustomerID</span>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Select ID</option>
-              <option value="1">C001</option>
+            <select id="customerIds" class="form-select" aria-label="Default select example">
+<!--              <option selected>Select ID</option>-->
+              <!--<option value="1">C001</option>
               <option value="2">C002</option>
-              <option value="3">C003</option>
+              <option value="3">C003</option>-->
             </select>
           </div>
         </div>
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Customer Name</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+            <input id="poCustomerName" class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
           </div>
         </div>
 
@@ -435,11 +228,11 @@
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Item ID</span>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Select ID</option>
-              <option value="1">I001</option>
+            <select id="itemIds" class="form-select" aria-label="Default select example">
+<!--              <option selected>Select ID</option>-->
+              <!--<option value="1">I001</option>
               <option value="2">I002</option>
-              <option value="3">I003</option>
+              <option value="3">I003</option>-->
             </select>
           </div>
         </div>
@@ -447,28 +240,28 @@
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Description</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+            <input id="poItemDesc" class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
           </div>
         </div>
 
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Qty On Hand</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+            <input id="poItemQtyOnHand" class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
           </div>
         </div>
 
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Unit Price</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+            <input id="poItemUP" class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
           </div>
         </div>
 
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Quantity</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example">
+            <input id="poItemQty" class="form-control" type="text" placeholder="" aria-label="Disabled input example">
           </div>
         </div>
 
@@ -477,7 +270,7 @@
       <div class="row mt-3">
         <div class="col-10"></div>
         <div class="col-2">
-          <button type="button" class="btn btn-outline-success">Add to Cart</button>
+          <button type="button" class="btn btn-outline-success" id="btnAddToCart">Add to Cart</button>
           <button type="button" class="btn btn-outline-warning">Clear</button>
         </div>
       </div>
@@ -487,68 +280,57 @@
 
   <section class="row mt-3 border border-dark rounded p-3">
     <div class="row">
-      <table class="table table-light table-striped">
-        <thead>
-        <tr>
-          <th style="background-color: blue" scope="col">Item ID</th>
+      <div class="col-10">
+        <table class="table table-light table-striped">
+          <thead>
+          <tr>
+            <th style="background-color: blue" scope="col">Item ID</th>
             <th style="background-color: blue" scope="col">Description</th>
             <th style="background-color: blue" scope="col">Qty</th>
             <th style="background-color: blue" scope="col">Unit Price</th>
             <th style="background-color: blue" scope="col">Total</th>
-            <th style="background-color: blue" scope="col">Action</th>
-        </tr>
-        </thead>
-        <tbody>
+          </tr>
+          </thead>
+          <tbody id="pOTBody">
 
-        <tr>
-          <th scope="col">I001</th>
-          <th scope="col">Milk</th>
-          <th scope="col">2</th>
-          <th scope="col">2000.00</th>
-          <th scope="col">4000.00</th>
-          <th scope="col">
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </th>
-        </tr>
-        <tr>
-          <th scope="col">I002</th>
-          <th scope="col">Rice</th>
-          <th scope="col">10</th>
-          <th scope="col">2200.00</th>
-          <th scope="col">2200.00</th>
-          <th scope="col">
-            <button type="button" class="btn btn-warning">Edit</button>
-            <button type="button" class="btn btn-danger">Delete</button>
-          </th>
-        </tr>
+          <tr>
 
-
-
-        </tbody>
-      </table>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-1 ms-4">
+        <!--<div class="row mb-3">
+          <button type="button" class="btn btn-outline-warning">Update</button>
+        </div>-->
+        <div class="row mb-3">
+          <button id="deleteCartItem" type="button" class="btn btn-outline-danger">Delete</button>
+        </div>
+      </div>
     </div>
+
+
     <form action="">
       <div class="row mt-3">
 
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Total-Rs:</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+            <input id="maxTot" class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
           </div>
         </div>
 
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Discount-Rs:</span>
-            <input class="form-control" type="number" placeholder="" aria-label="Disabled input example">
+            <input id="discount" class="form-control" type="number" placeholder="" aria-label="Disabled input example">
           </div>
         </div>
 
         <div class="col">
           <div class="input-group">
             <span class="input-group-text">Sub Tot-Rs:</span>
-            <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+            <input id="subTot" class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
           </div>
         </div>
       </div>
@@ -556,50 +338,30 @@
     <div class="row mt-3">
       <div class="col-10"></div>
       <div class="col-2">
-        <button type="button" class="btn btn-outline-success">Purchase</button>
-        <button type="button" class="btn btn-outline-danger">Cancel</button>
+        <button id="purchaseOrder" type="button" class="btn btn-outline-success">Purchase</button>
+        <button id="cancelOrder" type="button" class="btn btn-outline-danger">Cancel</button>
       </div>
     </div>
   </section>
 </main>
 
-<script>
+<script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
 
-  const customerElement = document.getElementById("customers");
-  document.getElementById("item");
 
-  document.getElementById("item").style.display="none";
-  document.getElementById("orders").style.display="none";
-  document.getElementById("placeOrder").style.display="none";
+<script src="db/DB.js"></script>
 
-  document.getElementById("btnCustomer").addEventListener("click", function(){
 
-    document.getElementById("customers").style.display="block";
-    document.getElementById("item").style.display="none";
-    document.getElementById("orders").style.display="none";
-    document.getElementById("placeOrder").style.display="none";
+<script src="model/Customer.js"></script>
+<script src="model/Items.js"></script>
+<script src="model/OrderDetails.js"></script>
+<script src="model/Orders.js"></script>
 
-  });
-  document.getElementById("btnItem").addEventListener("click", function(){
-    document.getElementById("customers").style.display="none";
-    document.getElementById("item").style.display="block";
-    document.getElementById("orders").style.display="none";
-    document.getElementById("placeOrder").style.display="none";
-  });
-  document.getElementById("btnOrder").addEventListener("click", function(){
-    document.getElementById("customers").style.display="none";
-    document.getElementById("item").style.display="none";
-    document.getElementById("orders").style.display="block";
-    document.getElementById("placeOrder").style.display="none";
-  });
-  document.getElementById("btnPlaceOrder").addEventListener("click", function(){
-    document.getElementById("customers").style.display="none";
-    document.getElementById("item").style.display="none";
-    document.getElementById("orders").style.display="none";
-    document.getElementById("placeOrder").style.display="block";
-  });
 
-</script>
+<script src="controllers/DashboardController.js"></script>
+<script src="controllers/CustomerController.js"></script>
+<script src="controllers/ItemsController.js"></script>
+<script src="controllers/PoController.js"></script>
+<script src="controllers/OrderController.js"></script>
 
 </body>
 </html>

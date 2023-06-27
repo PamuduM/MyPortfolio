@@ -1,12 +1,11 @@
-/* Customer Objects Array */
-var customers = [];
+//Array for store order items
+let cartItem=[];
 
-var items = [];
+//Array for store items
+let itemList=[];
 
-var cartDetails = [];
+//Array for Store customers
+let customerList=[];
 
-var orders = [];
-
-var orderDetails = [];
-
-
+//Array for Store order and details
+let Order=[];
