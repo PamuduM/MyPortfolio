@@ -37,32 +37,4 @@ My Personal Website
 [Instragram]: https://www.instagram.com/pamudu_mihiranga/
 
 
-<p align="center">
 
-  
-</p>
-
-<div align="center">
-
-![repo size](https://img.shields.io/github/repo-size/AshanSandeep06/My-Portfolio?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b)
-![GitHub forks](https://img.shields.io/github/forks/AshanSandeep06/My-Portfolio?&labelColor=black&color=0fb9b1&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/AshanSandeep06/My-Portfolio?&labelColor=black&color=f7b731&style=for-the-badge)
-![GitHub LastCommit](https://img.shields.io/github/last-commit/AshanSandeep06/My-Portfolio?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge)
-
-</div>
-
-<p align="center">
-<b>
-
-
-<h4 align="center">
-𝚃𝚑𝚊𝚗𝚔 𝚈𝚘𝚞 𝙵𝚘𝚛 𝚟𝚒𝚜𝚝𝚒𝚗𝚐 𝙼𝚢 𝙿𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝚆𝚎𝚋𝚜𝚒𝚝𝚎 🤝
-𝙷𝚊𝚟𝚎 𝚊 𝚠𝚘𝚗𝚍𝚎𝚛𝚏𝚞𝚕 𝚊𝚗𝚍 𝚐𝚛𝚎𝚊𝚝 𝚍𝚊𝚢 ! 
-
-<img src="https://github.com/Mindula-Dilthushan/Mindula-Dilthushan/blob/master/assets/hi.gif" width="30px">
-
-</h4>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer"/>
-</p>
