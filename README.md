@@ -1,7 +1,17 @@
 # My-Portfolio Website 
 
 My Personal Website
+
+Technologies & Frameworks
+
+**HTML
+CSS
+JavaScript
+Bootstrap
+jQuery
+Deployment**
 # 
+
 * GitHub Page URL : <a href="https://pamudum.github.io/MyPortfolio/" target="_blank">https://pamudum.github.io/MyPortfolio//</a>
 
 * Site Map URL : <a href="https://www.gloomaps.com/z46kePAHbp" target="_blank">https://www.gloomaps.com/z46kePAHbp</a>
@@ -35,6 +45,5 @@ My Personal Website
 [Twitter]: https://twitter.com/64Pamudum/
 
 [Instragram]: https://www.instagram.com/pamudu_mihiranga/
-
 
 
